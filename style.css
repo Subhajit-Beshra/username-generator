@@ -5,12 +5,11 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 20px 0;
     box-sizing: border-box;
     background-color: #091413;
     color: #D2C4B4;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +18,8 @@ body{
 }
 .container{
     margin-top: 10px;
-    width: 500px;
+    max-width: 500px;
+    width: 90%;
     padding: 20px;
 }
 .title{
@@ -183,6 +183,7 @@ input[type=range]::-ms-thumb{
     border: 1px solid #2C2C2C;
     padding: 10px 30px;
     width: 400px;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -236,3 +237,5 @@ input[type=range]::-ms-thumb{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
