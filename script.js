@@ -24,7 +24,7 @@ styleButtons.forEach(btn => {
 });
 
 // --- Favorite Icon Toggle ---
-document.querySelectorAll(".material-symbols-outlined").forEach(icon => {
+document.querySelectorAll(".favorite-icon").forEach(icon => {
   icon.addEventListener("click", () => {
     icon.classList.toggle("active");
   });

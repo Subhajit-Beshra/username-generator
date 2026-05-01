@@ -200,22 +200,21 @@ input[type=range]::-ms-thumb{
     cursor: pointer;
     transition: all 0.15s;
 }
-.material-symbols-outlined{
+.favorite-icon{
     padding: 10px 10px;
     border: 1px solid #2C2C2C;
     color: #777;
     margin-left: 10px;
     cursor: pointer;
     transition: all 0.15s;
-    font-variation-settings: 'FILL' 0;
 }
-.material-symbols-outlined:hover{
+.favorite-icon:hover{
     color: #FFDE42;
-    font-variation-settings: 'FILL' 1;
+    fill: #FFDE42;
 }
-.material-symbols-outlined.active{
+.favorite-icon.active{
     color: #FFDE42;
-    font-variation-settings: 'FILL' 1;
+    fill: #FFDE42;
 }
 .copy button:hover{
     background-color: #FFDE42;
