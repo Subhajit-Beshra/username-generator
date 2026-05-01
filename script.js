@@ -2,6 +2,7 @@
 const slider = document.getElementById("countSlider");
 const countValue = document.getElementById("count-value");
 const styleButtons = document.querySelectorAll(".dropdown");
+const favouriteIcons = document.querySelectorAll(".material-symbols-outlined");
 const outputItems = document.querySelectorAll(".output-results-item");
 const loader = document.querySelector(".loader");
 const results = document.querySelector(".output-results");
@@ -26,7 +27,8 @@ styleButtons.forEach(btn => {
 // --- Favorite Icon Toggle ---
 document.querySelectorAll(".favorite-icon").forEach(icon => {
   icon.addEventListener("click", () => {
-    icon.classList.toggle("active");
+    document.querySelectorAll(".favorite-icon").forEach(x => x.classList.remove("active"));
+    icon.classList.add("active");
   });
 });
 
